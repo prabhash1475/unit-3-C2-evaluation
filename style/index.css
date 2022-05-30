@@ -1,0 +1,16 @@
+#navbar {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
